@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        .center {
+            display: block;
+            margin-left: 360px;
+            margin-right: 120px;
+            width: 80%;
+        }
+        #b1 {
+            border-radius: 25px;
+            border: 2px solid yellow;
+            padding: 20px; 
+            width: 200px;
+            height: 50px;  
+        }
+
+        .button {
+            border-radius: 25px;
+            background: orange;
+            padding: 20px; 
+            width: 370px;
+            height: 40px;   
+        }
+
+        .checked {
+            color: orange;
+        }
+
+        .star {
+            padding: 0;
+            width: 20%;
+            font-size: 1vw;
+        }
+
+            .checked {
+            color: yellow;
+        }
+
+        </style>
+    <title>List of Courses</title>
+</head>
+<body bgcolor="black">
+    <center style="color: white;"><h2>List of Courses</h2></center>
+    <div class="center">
+    <div class="row">
+        <div class="column">
+          <img src="./images/Xnip2023-02-08_23-36-00.jpg" alt="Snow" style="width:100%">
+          <center><p id="b1" style="color: white;">
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+             3 Stars</p></center>
+            <button class="button">View Class</button>
+        </div>
+        <div class="column">
+          <img src="./images/lock.jpg" alt="Forest" style="width:100%">
+          <center><p id="b1" style="color: white;">
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+             4 Stars</p></center>
+             <button class="button">View Class</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="./images/Xnip2023-02-08_23-36-00.jpg" alt="Snow" style="width:100%">
+          <center><p id="b1" style="color: white;">
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+             3 Stars</p></center>
+             <button class="button">View Class</button>
+        </div>
+        <div class="column">
+          <img src="./images/lock.jpg" alt="Forest" style="width:100%">
+          <center><p id="b1" style="color: white;">
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+            <span class="star checked">★</span>
+             4 Stars</p></center>
+             <button class="button">View Class</button>
+        </div>
+      </div>
+    </div>
+    <hr style="color: white;">
+</body>
+</html>
